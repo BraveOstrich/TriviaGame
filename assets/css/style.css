@@ -1,0 +1,60 @@
+body{
+    background-image: url(../images/classic-arcade-games.jpg);
+    background-size: cover;
+    min-height:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.heading{
+    margin: 30px;
+    margin-top: 0px;
+    padding: 40px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 600%;
+    font-weight: 800;
+    /* color: rgb(121, 39, 42); */
+    color: rgb(185, 210, 230);
+}
+
+.time{
+    font-size: 24px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.questions{
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* input[type="radio"]{
+    text-align: center;
+} */
+
+.radio-buttons{
+    font-size: 20px;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#radio-ten{
+    margin-bottom: 40px;
+}
