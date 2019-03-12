@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script> -->
     <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
     <title>Basic Quiz</title>
 </head>
 <body>
@@ -20,110 +24,119 @@
         <div>
             <h1 id="question-one" class="questions">Which of the following is not one of the primary ghosts from Pac-Man?</h1>
             <div id="radio-one" class="radio-buttons">
-                <input class="ghost" type="radio" name="ghost" value="inky"> Inky
-                <input class="ghost" type="radio" name="ghost" value="blinky"> Blinky
-                <input class="ghost" type="radio" name="ghost" value="pinky"> Pinky
-                <input class="ghost" type="radio" name="ghost" value="sue"> Sue
-                <input class="ghost" type="radio" name="ghost" value="clyde"> Clyde
+                <input class="ghost" type="radio" name="ghost" value="inky">Inky</input>
+                <input class="ghost" type="radio" name="ghost" value="blinky">Blinky</input>
+                <input class="ghost" type="radio" name="ghost" value="pinky">Pinky</input>
+                <input id="sue" class="ghost" type="radio" name="ghost" value="sue">Sue</input>
+                <input class="ghost" type="radio" name="ghost" value="clyde">Clyde</input>
             </div>
         </div>
         <div>
             <h1 id="question-two" class="questions">Mario debuted as "Jumpman" in the arcade game Donkey Kong, in which year was he renamed Mario?</h1>
             <div id="radio-two" class="radio-buttons">
-                <input class="ghost" type="radio" name="year" value="1978"> 1978
-                <input class="ghost" type="radio" name="year" value="1979"> 1979
-                <input class="ghost" type="radio" name="year" value="1980"> 1980
-                <input class="ghost" type="radio" name="year" value="1981"> 1981
-                <input class="ghost" type="radio" name="year" value="1982"> 1982
+                <input class="ghost" type="radio" name="year" value="1978">1978</input>
+                <input class="ghost" type="radio" name="year" value="1979">1979</input>
+                <input class="ghost" type="radio" name="year" value="1980">1980</input>
+                <input class="ghost" type="radio" name="year" value="1981">1981</input>
+                <input id="1982" class="ghost" type="radio" name="year" value="1982">1982</input>
             </div>
         </div>
         <div>
             <h1 id="question-three" class="questions">What was the name of the the first arcade game released, in 1971?</h1>
             <div id="radio-three" class="radio-buttons">
-                <input class="ghost" type="radio" name="arcade-game" value="tennis-for-two"> Tennis for Two
-                <input class="ghost" type="radio" name="arcade-game" value="pong"> Pong
-                <input class="ghost" type="radio" name="arcade-game" value="computer-space"> Computer Space
-                <input class="ghost" type="radio" name="arcade-game" value="pac-man"> Pac-Man
-                <input class="ghost" type="radio" name="arcade-game" value="space-invaders"> Space Invaders
+                <input class="ghost" type="radio" name="arcade-game" value="tennis-for-two">Tennis for Two</input>
+                <input class="ghost" type="radio" name="arcade-game" value="pong">Pong</input>
+                <input id="computer-space" class="ghost" type="radio" name="arcade-game" value="computer-space">Computer Space</input>
+                <input class="ghost" type="radio" name="arcade-game" value="pac-man">Pac-Man</input>
+                <input class="ghost" type="radio" name="arcade-game" value="space-invaders">Space Invaders</input>
             </div>
         </div>
         <div>
             <h1 id="question-four" class="questions">What is the name of the leader of the Koopa Troop in the Mario franchise?</h1>
             <div id="radio-four" class="radio-buttons">
-                <input class="ghost" type="radio" name="character" value="iggy-koopa"> Iggy Koopa
-                <input class="ghost" type="radio" name="character" value="wendy-o-koopa"> Wendy O. Koopa
-                <input class="ghost" type="radio" name="character" value="bowser-koopa"> Bowser Koopa
-                <input class="ghost" type="radio" name="character" value="larry-koopa"> Larry Koopa
-                <input class="ghost" type="radio" name="character" value="morton-koopa"> Morton Koopa Jr
+                <input class="ghost" type="radio" name="character" value="iggy-koopa">Iggy Koopa</input>
+                <input class="ghost" type="radio" name="character" value="wendy-o-koopa">Wendy O. Koopa</input>
+                <input id="bowser-koopa" class="ghost" type="radio" name="character" value="bowser-koopa">Bowser Koopa</input>
+                <input class="ghost" type="radio" name="character" value="larry-koopa">Larry Koopa</input>
+                <input class="ghost" type="radio" name="character" value="morton-koopa">Morton Koopa Jr</input>
             </div>
         </div>
         <div>
             <h1 id="question-five" class="questions">Which of the following is the best selling video game of all time? </h1>
             <div id="radio-five" class="radio-buttons">
-                <input class="ghost" type="radio" name="best-selling" value="gtav"> Grand Theft Auto V
-                <input class="ghost" type="radio" name="best-selling" value="tetris"> Tetris
-                <input class="ghost" type="radio" name="best-selling" value="minecraft"> Minecraft
-                <input class="ghost" type="radio" name="best-selling" value="wii-sports"> Wii Sports
-                <input class="ghost" type="radio" name="best-selling" value="super-mario-bros"> Super Mario Bros
+                <input class="ghost" type="radio" name="best-selling" value="gtav">Grand Theft Auto V</input>
+                <input id="tetris" class="ghost" type="radio" name="best-selling" value="tetris">Tetris</input>
+                <input class="ghost" type="radio" name="best-selling" value="minecraft">Minecraft</input>
+                <input class="ghost" type="radio" name="best-selling" value="wii-sports">Wii Sports</input>
+                <input class="ghost" type="radio" name="best-selling" value="super-mario-bros">Super Mario Bros</input>
             </div>
         </div>
         <div>
             <h1 id="question-six" class="questions">What is the name of the Princess that Mario regularly has to rescue from the Koopa Troop?</h1>
             <div id="radio-six" class="radio-buttons">
-                <input class="ghost" type="radio" name="princess" value="rosalina"> Rosalina
-                <input class="ghost" type="radio" name="princess" value="pauline"> Pauline
-                <input class="ghost" type="radio" name="princess" value="daisy"> Daisy
-                <input class="ghost" type="radio" name="princess" value="peach"> Peach
-                <input class="ghost" type="radio" name="princess" value="eclair"> Eclair
+                <input class="ghost" type="radio" name="princess" value="rosalina">Rosalina</input>
+                <input class="ghost" type="radio" name="princess" value="pauline">Pauline</input>
+                <input class="ghost" type="radio" name="princess" value="daisy">Daisy</input>
+                <input id="peach" class="ghost" type="radio" name="princess" value="peach">Peach</input>
+                <input class="ghost" type="radio" name="princess" value="eclair">Eclair</input>
             </div>
         </div>
         <div>
             <h1 id="question-seven" class="questions">Which game was the first to receive a 'Mature' rating?</h1>
             <div id="radio-seven" class="radio-buttons">
-                <input class="ghost" type="radio" name="mature-rating" value="samurai-shodown"> Samurai Shodown
-                <input class="ghost" type="radio" name="mature-rating" value="mortal-kombat"> Mortal Kombat
-                <input class="ghost" type="radio" name="mature-rating" value="street-fighter"> Street Fighter
-                <input class="ghost" type="radio" name="mature-rating" value="doom"> Doom
-                <input class="ghost" type="radio" name="mature-rating" value="duke-nukem"> Duke Nukem 3D
+                <input class="ghost" type="radio" name="mature-rating" value="samurai-shodown">Samurai Shodown</input>
+                <input id="mortal-kombat" class="ghost" type="radio" name="mature-rating" value="mortal-kombat">Mortal Kombat</input>
+                <input class="ghost" type="radio" name="mature-rating" value="street-fighter">Street Fighter</input>
+                <input class="ghost" type="radio" name="mature-rating" value="doom">Doom</input>
+                <input class="ghost" type="radio" name="mature-rating" value="duke-nukem">Duke Nukem 3D</input>
             </div>
         </div>
         <div>
-            <h1 id="question-eight" class="questions">Which of the Following is Not One of the Primary Ghosts From Pac-Man</h1>
+            <h1 id="question-eight" class="questions">Which video game system was the first to feature online play?</h1>
             <div id="radio-eight" class="radio-buttons">
-                <input class="ghost" type="radio" name="ghost" value="blinky"> Blinky
-                <input class="ghost" type="radio" name="ghost" value="pinky"> Pinky
-                <input class="ghost" type="radio" name="ghost" value="inky"> Inky
-                <input class="ghost" type="radio" name="ghost" value="clyde"> Clyde
-                <input class="ghost" type="radio" name="ghost" value="sue"> Sue
+                <input class="ghost" type="radio" name="game-system" value="sega-genesis">Sega Genesis</input>
+                <input class="ghost" type="radio" name="game-system" value="super-nintendo">Super Nintendo</input>
+                <input class="ghost" type="radio" name="game-system" value="sega-saturn">Sega Saturn</input>
+                <input class="ghost" type="radio" name="game-system" value="sony-playstation">Sony Playstation</input>
+                <input id="sega-dreamcast" class="ghost" type="radio" name="game-system" value="sega-dreamcast">Sega Dreamcast</input>
             </div>
         </div>
         <div>
-            <h1 id="question-nine" class="questions">Which of the Following is Not One of the Primary Ghosts From Pac-Man</h1>
+            <h1 id="question-nine" class="questions">What is the average age of a gamer in the U.S.?</h1>
             <div id="radio-nine" class="radio-buttons">
-                <input class="ghost" type="radio" name="ghost" value="blinky"> Blinky
-                <input class="ghost" type="radio" name="ghost" value="pinky"> Pinky
-                <input class="ghost" type="radio" name="ghost" value="inky"> Inky
-                <input class="ghost" type="radio" name="ghost" value="clyde"> Clyde
-                <input class="ghost" type="radio" name="ghost" value="sue"> Sue
+                <input class="ghost" type="radio" name="average-age" value="14">14</input>
+                <input class="ghost" type="radio" name="average-age" value="16">16</input>
+                <input class="ghost" type="radio" name="average-age" value="22">22</input>
+                <input class="ghost" type="radio" name="average-age" value="35">35</input>
+                <input class="ghost" type="radio" name="average-age" value="43">43</input>
             </div>
         </div>
         <div>
-            <h1 id="question-ten" class="questions">Which of the Following is Not One of the Primary Ghosts From Pac-Man</h1>
+            <h1 id="question-ten" class="questions">In which game are golden rings used for energy and money?</h1>
             <div id="radio-ten" class="radio-buttons">
-                <input class="ghost" type="radio" name="ghost" value="blinky"> Blinky
-                <input class="ghost" type="radio" name="ghost" value="pinky"> Pinky
-                <input class="ghost" type="radio" name="ghost" value="inky"> Inky
-                <input class="ghost" type="radio" name="ghost" value="clyde"> Clyde
-                <input class="ghost" type="radio" name="ghost" value="sue"> Sue
+                <input class="ghost" type="radio" name="scoring" value="legend-zelda">Legend of Zelda</input>
+                <input class="ghost" type="radio" name="scoring" value="donkey-kong">Donkey Kong</input>
+                <input class="ghost" type="radio" name="scoring" value="sonic-hedgehog">Sonic the Hedgehog</input>
+                <input class="ghost" type="radio" name="scoring" value="castlevania">Castlevania</input>
+                <input class="ghost" type="radio" name="scoring" value="super-mario">Super Mario Bros</input>
             </div>
+        </div>
+        <div>
+            <button id="submit-button" class="button" type="button" >Submit Answers</button>
         </div>
 
 
-
-
-
-
+        
     </div>
+
+
+
+
+
+
+
+
+    
     
 </body>
 </html>
